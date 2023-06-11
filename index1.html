@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400,500,600,700&display=swap" rel="stylesheet">
+    <title>Parte 2</title>
+</head>
+
+<body>
+
+    <h1>PUEDES AGREGAR HASTA 10 STICKERS EN TOTAL</h1>
+
+    <div class="container">
+        <div class="card">
+            <img class="sticker1" src="assets/img/sticker1.jpg" alt="sticker">
+            <input class="input1" type="number" value="0" min="0" max="10">
+        </div>
+
+        <div class="card">
+            <img class="sticker2" src="assets/img/sticker2.jpg" alt="sticker">
+            <input class="input2" type="number" value="0" min="0" max="10">
+        </div>
+
+        <div class="card">
+            <img class="sticker3" src="assets/img/sticker3.jpg" alt="sticker">
+            <input class="input3" type="number" value="0" min="0" max="10">
+        </div>
+    </div>
+
+    <div>
+
+        <div class="containerButton">
+            <button class="button" type="button" onclick="verifyStickers()">VERIFICAR</button>
+        </div>
+
+        <p id="result"></p>
+
+    </div>
+
+
+    <script src="assets/js/script1.js"></script>
+
+</body>
+
+</html>

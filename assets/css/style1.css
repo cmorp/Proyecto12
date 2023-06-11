@@ -1,0 +1,51 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: rgb(50, 50, 50);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: auto;
+  border: 2px solid pink;
+}
+
+.containerButton {
+  text-align: center;
+  padding-top: 50px;
+}
+
+button {
+  color: #008680;
+  background-color: rgb(185, 242, 242);
+  border-radius: 5px;
+  border: #008680 1px solid;
+  padding: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+  cursor: pointer;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+input {
+  margin: 30px;
+}
