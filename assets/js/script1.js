@@ -19,8 +19,10 @@ function verifyStickers() {
     } else if (total > 0) {
         result.innerHTML = `Has agregado ${total} stickers`
 
+    } else if (total < 1) {
+        result.innerHTML = "Debes ingresar números válidos"
+
     } else {
         result.innerHTML = "No has agregado ningún sticker :("
-
     }
 }
